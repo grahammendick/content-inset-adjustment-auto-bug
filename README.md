@@ -3,7 +3,7 @@ This repository contains 2 "Hello World" React Native apps. One is built with th
 
 ## Steps to recreate the problem
 1. cd to the `newarch` app
-2. Run `npm install`
+2. Run `npm install` and `RCT_NEW_ARCH_ENABLED=1 pod install`
 3. Run `npx react-native run-ios`
 4. Press the button on the first screen
 5. Notice that the text shows correctly below the navigation bar
