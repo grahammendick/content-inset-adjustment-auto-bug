@@ -9,7 +9,7 @@ const Hello = () => {
     <SafeAreaView>
       <NavigationBar title="Hello" />
       <Button
-        title="Next"
+        title="Press Me"
         onPress={() => {
           stateNavigator.navigate('world');
         }}

@@ -1,21 +1,18 @@
 import React from 'react';
-import {ScrollView, View, StyleSheet} from 'react-native';
+import {ScrollView, Text} from 'react-native';
 import {NavigationBar} from 'navigation-react-native';
 
 const World = () => (
   <>
     <NavigationBar title="World" />
     <ScrollView contentInsetAdjustmentBehavior="automatic">
-      <View style={styles.view} />
+      <Text>
+        This text shows correctly below the navigation bar the first time you
+        see it. But if you go back and press the button again then the text
+        shows wrongly behind the navigation bar.
+      </Text>
     </ScrollView>
   </>
 );
-
-const styles = StyleSheet.create({
-  view: {
-    height: 100,
-    backgroundColor: 'orange',
-  },
-});
 
 export default World;
