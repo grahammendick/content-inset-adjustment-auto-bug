@@ -7,9 +7,8 @@ const World = () => (
     <NavigationBar title="World" />
     <ScrollView contentInsetAdjustmentBehavior="automatic">
       <Text>
-        This text shows correctly below the navigation bar the first time you
-        see it. But if you go back and press the button again then the text
-        shows wrongly behind the navigation bar.
+        With the old React Native architecture, this text shows correctly below
+        the navigation bar every time you see it.
       </Text>
     </ScrollView>
   </>
