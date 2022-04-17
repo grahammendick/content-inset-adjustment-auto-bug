@@ -4,7 +4,7 @@ import {NavigationBar} from 'navigation-react-native';
 
 const World = () => (
   <>
-    <NavigationBar title="Hello" />
+    <NavigationBar title="World" />
     <ScrollView contentInsetAdjustmentBehavior="automatic">
       <View style={styles.view} />
     </ScrollView>
